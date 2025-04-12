@@ -5,6 +5,6 @@ int main() {
   for (int i = 0; i < 15; i++)
     colorful_balls[i] = i;
   int size = sizeof(colorful_balls) / sizeof(colorful_balls[0]);
-  printf("В коробке помещается шаров. \n", size);
+  printf("В коробке помещается %d шаров. \n", size);
   return 0;
 }
